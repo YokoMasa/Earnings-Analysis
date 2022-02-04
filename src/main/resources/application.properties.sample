@@ -1,0 +1,11 @@
+logging.level.org.springframework=ERROR
+logging.level.com.masalab.earnings==DEBUG
+
+spring.datasource.url=${Db connection string}
+
+earnings.http.userAgent=${Your Name} ${Your Email address}
+
+earnings.submissions.url=https://data.sec.gov/submissions/
+
+earnings.cik.jsonUrl=https://www.sec.gov/files/company_tickers.json
+earnings.cik.jsonPath=company_tickers.json
